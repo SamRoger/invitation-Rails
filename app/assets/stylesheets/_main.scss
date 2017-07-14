@@ -1,0 +1,71 @@
+body {
+	cursor: url(couple.png), auto;
+	background-color: rgb(242, 243, 244);
+	margin: 0;
+	background-image: url(wood-bg.jpg);
+	// height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+ .content {
+ 	height: 281px
+ }
+
+ .arrowOpacity {
+	opacity: 0;
+ 	background-size: 10px;
+ 	background-position: 50% 90%;
+ 	background-repeat: no-repeat;
+ 	background-image: url("../img/pointer.png");
+ 	opacity: 1;
+ 	animation: fadeIn2 2s forwards;
+}
+
+ .pointer {
+	/*position: relative;
+	top: 11px;
+	left: 65px;
+	display: inline;*/
+	opacity: 0;
+	width: 10px;
+}
+
+ .test {
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color: salmon;
+ 	position: absolute;
+ 	top: 200px;
+ 	z-index: 1;
+ }
+
+ .navMenu {
+
+	text-align: center;
+ }
+
+ .navLinks {
+ 	font-weight: 900;
+	color: rgb(153, 51, 0);
+ 	border-radius: 4px;
+ 	padding: 10px;
+ 	display: inline-block;
+ 	margin-left: 20px;
+ 	&:hover {
+ 	cursor: pointer;
+	animation: menuHoverFadeIn .65s forwards;
+	} 
+}
+
+/*.display2 {
+	z-index: 1;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: teal;
+}
+*/
